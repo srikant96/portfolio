@@ -27,3 +27,29 @@ div.project-boxes>div.project>p{
     opacity:0.5;
     padding:0px 0px 0px 10px;
 }
+@media screen and (max-width:425px){
+	section.open-source-projects{
+    margin:auto;
+    width:385px;
+    margin-top:50px;
+    color:#888;
+}
+
+section.open-source-projects>div.project-boxes{
+    display:grid;
+    grid-template-columns:repeat(1,1fr);
+}
+div.project-boxes>div.project>img{
+    height:210px;
+    width:385px;
+    margin-top:10px;
+	object-fit:cover;
+    
+}
+div.project-boxes>div.project>p{
+    height:50px;
+    width:385px;
+    margin-top:-50px;
+    
+}
+}
