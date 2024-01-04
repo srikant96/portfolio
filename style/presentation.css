@@ -31,3 +31,31 @@ hr{
     margin-top:100px;
 
 }
+
+@media screen and (max-width:425px){
+	
+    section.presentation{
+        margin:auto;
+        width:385px;
+        margin-top:50px;
+        color:#888;
+        
+    }
+    section.presentation>div.presentation-boxes{
+      
+        grid-template-columns:repeat(1,1fr);
+        margin-top:30px;
+    }
+    div.presentation-boxes>img{
+        width:385px;
+        height:218px;
+        margin:0px auto;
+    }
+    div.presentation-boxes>div.presentation-desc{
+        height:400px;
+        width:400spx;
+        background-color: white;
+        border-radius:8px;
+       
+    }
+}
